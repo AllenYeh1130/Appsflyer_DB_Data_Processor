@@ -25,7 +25,7 @@ default_core <- 2
 use_core <- ifelse(default_core <= max_core & default_core > min_core, use_core, 1)
 
 # 設定檔載入
-all_config <- yaml.load_file('C:/git/Appsflyer_PUSH_API_to_DB/db_config.yml')
+all_config <- yaml.load_file('C:/git/Appsflyer_PUSH_API_to_DB/all_config.yml')
 af_config <- yaml.load_file('C:/git/Appsflyer_PUSH_API_to_DB/af_config.yml')
 
 # 資料庫連線
