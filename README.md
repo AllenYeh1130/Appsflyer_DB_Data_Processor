@@ -33,6 +33,6 @@ Convert Appsflyer raw data into corresponding tables for each event_name, with f
 - **af_config.yml**  
   Appsflyer 欄位相關的配置。  
   Configuration file for Appsflyer field settings.
-- **db_config**
+- **all_config**
   包含資料庫設定與電子郵件通知設定。  
   Contains database configurations and email notification settings.
